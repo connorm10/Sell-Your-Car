@@ -27,7 +27,6 @@ string Car::getBrand() {
     return brand;
 }
 
-
 string Car::getModel() {
     return model;
 }
