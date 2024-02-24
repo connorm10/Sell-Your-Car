@@ -33,8 +33,8 @@ public:
     void setBrand(string);
     void setModel(string);
 
-    // Explicit method to create sale price for car based on
-    virtual void carSale() = 0;
+    // Explicit method to create sale price for car based on year and use
+    virtual void sellCar() = 0;
 };
 
 
