@@ -7,6 +7,34 @@
 using namespace std;
 
 class Car {
+
+private:
+    int topSpeed;
+    int MPG;
+    int MSRP;
+    string brand;
+    string model;
+
+public:
+    // Constructor
+    Car();
+
+    // Getters
+    virtual int getTopSpeed();
+    virtual int getMPG();
+    virtual int getMSRP();
+    virtual string getBrand();
+    virtual string getModel();
+
+    // Setters
+    void setTopSpeed(int);
+    void setMPG(int);
+    void setMSRP(int);
+    void setBrand(string);
+    void setModel(string);
+
+    // Explicit method to create sale price for car based on
+    virtual void carSale() = 0;
 };
 
 
