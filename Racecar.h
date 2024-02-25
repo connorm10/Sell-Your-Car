@@ -9,7 +9,7 @@
 class Racecar : public Car {
 private:
     int avgPlacement; // Average placement on the podium aka finishing spot
-    int salary;
+    int salary; // Salary+winnings+sponsorships
     string driverName;
     int numWins; // Number of professional wins
 
