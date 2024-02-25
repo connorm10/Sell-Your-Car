@@ -9,8 +9,7 @@ Car::Car() {
     model = "default";
 }
 
-// Get
-
+// Getters
 int Car::getTopSpeed() {
     return topSpeed;
 }
@@ -31,8 +30,7 @@ string Car::getModel() {
     return model;
 }
 
-// Set
-
+// Setters
 void Car::setTopSpeed(int val) {
     topSpeed = val;
 }
