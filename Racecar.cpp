@@ -137,7 +137,7 @@ void Racecar::sellCar() {
     setDriverName(inputStr);
 
     do{
-        cout << "Enter the salary of the driver :";
+        cout << "Enter the salary of the driver:";
         cin >> inputInt;
         if (cin.fail()){
             cin.clear();
